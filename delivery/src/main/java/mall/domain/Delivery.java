@@ -27,6 +27,18 @@ public class Delivery  {
     
     
     private Long id;
+    
+    
+    
+    
+    
+    private String orderId;
+    
+    
+    
+    
+    
+    private String status;
 
     @PostPersist
     public void onPostPersist(){

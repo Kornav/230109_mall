@@ -9,6 +9,8 @@ import java.util.*;
 public class DeliveryCancelled extends AbstractEvent {
 
     private Long id;
+    private String orderId;
+    private String status;
 }
 
 
